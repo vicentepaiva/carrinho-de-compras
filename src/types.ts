@@ -1,4 +1,7 @@
+import { ReactNode } from "react";
+
 export interface Product {
+  priceFormatted: ReactNode;
   id: number;
   title: string;
   price: number;
